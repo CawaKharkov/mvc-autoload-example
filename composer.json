@@ -1,0 +1,19 @@
+{
+  "name": "cawakharkov/mvc-autoload-example",
+  "description": "Пример использования автозугрузчка",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksandr Zamiatin",
+      "email": "cawa123@mail.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "CawaKharkov\\Application\\": "src/"
+    }
+  }
+}
